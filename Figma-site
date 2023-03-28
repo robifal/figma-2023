@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p id="logo">Ready<span id="comercial">&</span>Go</p>
+        <nav>
+            <ul id="menu">
+                <li class="item-menu"><a href="">Home</a></li>
+                <li class="item-menu"><a id="about" href="">About</a></li>
+                <li class="item-menu"><a id="Contact" href="">Contact</a></li>
+                <li class="item-menu"><a id="Blog" href="">Blog</a></li>
+                <li class="item-menu"><a id="Videos" href="">Videos</a></li>
+            </ul>
+        </nav>
+        <div id="phone">
+            <img src="./img/phone icon.png" alt="" id="phone-img">
+            <p id="phone-number">+38(097)8849989</p>
+        </div>
+        <div id="textos">
+            <p id="texto1">Your perfect honeymoon</p>
+            <p id="texto2">Mayami is more than a honeymoon destination – it's a perfect romantic spot for couples who like  spending time in beach. </p>
+        </div>
+        <button>Start</button>
+            
+    </header>
+</body>
+</html>
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand:wght@600;700&display=swap');
+
+body {
+  background: linear-gradient(359.75deg, #8489FF 0.23%, #61C0F5 99.79%);
+  height: 900px;
+}
+
+#logo {
+  position: absolute;
+  width: 176px;
+  height: 42.62px;
+  left: 135px;
+  top: 53px;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.375px;
+  line-height: 43px;
+  color: #FFFFFF; 
+}
+
+
+#comercial {
+  color: #FFB9AF;
+}
+
+.item-menu {
+  display: inline
+}
+#menu{
+  position: absolute;
+  left: 435px;
+  top: 60px;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+
+}
+nav > ul > li > a {
+  font-size: 24.5267px;
+  line-height: 30px;
+  text-decoration: none;
+color: #FFFFFF;
+font-weight: 500;
+font-family: montserrat;
+
+}
+#Videos{
+  left: 485.63px;
+  position: absolute;
+}
+#Blog{
+  left: 382.62px;
+  position: absolute;
+}
+#Contact {
+  left: 241.34px;
+  position: absolute;
+}
+#about{
+  left: 120.67px;
+  position:absolute;
+}
+
+#phone {
+  left: 1102px;
+  position: absolute;
+  top: 63px;
+}
+
+#phone-number{
+  position: absolute;
+  width: 169px;
+  height: 23.05px;
+  left: 33px;
+  top: 0px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.2045px;
+  line-height: 23px;
+  /* identical to box height */
+  margin: 0px;
+  
+  color: #FFFFFF;
+}
+#phone-img {
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: 0px;
+top: 3px;
+
+}
+#textos{
+  position: absolute;
+width: 544.05px;
+height: 329.94px;
+left: 135px;
+top: 238px;
+}
+#texto1{
+  position: absolute;
+width: 521.13px;
+height: 191.04px;
+left: 0px;
+top: 0px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 78.6505px;
+line-height: 133%;
+/* or 105px */
+
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+margin: 0px;
+}
+#texto2{
+  position: absolute;
+  width: 543.05px;
+  height: 102.89px;
+  left: 1px;
+  top: 227.04px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.2852px;
+  line-height: 170%;
+  /* or 34px */
+  
+  letter-spacing: 0.015em;
+  
+  color: #FFFFFF;
+  margin: 0px;
+}
+button {
+  position: absolute;
+width: 298px;
+height: 56.43px;
+left: 135px;
+top: 601.72px;
+
+
+position: absolute;
+width: 54px;
+height: 26px;
+left: 257px;
+top: 617px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+position: absolute;
+width: 298px;
+height: 56.43px;
+left: 135px;
+top: 601.72px;
+border: 0px;
+background: linear-gradient(93.7deg, #EED761 21.68%, #FFB9AF 79.85%);
+box-shadow: 0px 3.52663px 35.2663px rgba(255, 185, 175, 0.5);
+border-radius: 88.1657px;
+}
